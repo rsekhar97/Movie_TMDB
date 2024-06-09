@@ -17,8 +17,8 @@ const Login: React.FC<Props> = ({ navigation }) => {
 //   const [email, setEmail] = useState('Sekhar@123');
 //   const [password, setPassword] = useState('Chinn@123');
 
-  const [email, setEmail] = useState('Sekhar@123');
-  const [password, setPassword] = useState('Chinn@123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
 
   const handleLogin = async () => {

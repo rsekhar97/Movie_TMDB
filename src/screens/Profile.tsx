@@ -64,7 +64,7 @@ const Profile: React.FC<ProfileProps> = ({ navigation, Profile }) => {
                     text: 'Logout',
                     onPress: () => {
                         // Perform logout action here
-                        console.log('User logged out');
+                        navigation.navigate('Login');
                     }
                 }
             ],
